@@ -46,5 +46,6 @@ async function mintNFT(tokenURI) {
         console.log(" Promise failed:", err);
     });
 }
+// Minting nft with the metadata of NFT image
 mintNFT("https://gateway.pinata.cloud/ipfs/QmaoFeEY5aeLWL374RrsbseBmHH7ekREGXpET8a88LqeDV");
 
